@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/aboutus"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Text Beranda -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="70dp"
+        android:text="About Us" />
+
+    <!-- Kontainer untuk Teks dan Gambar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:padding="15dp"
+        android:background="#F7ECD0"
+        android:gravity="center_vertical">
+
+        <!-- Kolom Kiri -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <!-- Teks Tervaforit -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hafiz Aprianto"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20220810102"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#355F2E"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <!-- Gambar di Kanan -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/useron"
+            android:layout_marginStart="16dp"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:padding="15dp"
+        android:background="#F7ECD0"
+        android:gravity="center_vertical">
+
+        <!-- Kolom Kiri -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <!-- Teks Tervaforit -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M Fahmi AlGifari"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20220810018"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#355F2E"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <!-- Gambar di Kanan -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/useron"
+            android:layout_marginStart="16dp"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+
+</LinearLayout>
